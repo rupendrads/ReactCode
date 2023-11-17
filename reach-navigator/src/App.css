@@ -1,0 +1,13 @@
+.page {
+  min-height: 100vh;
+  /* border: 3px solid black;
+  background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:10px;
+}
+
+.content {
+    height: 100%;
+}

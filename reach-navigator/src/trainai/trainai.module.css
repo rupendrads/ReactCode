@@ -1,0 +1,84 @@
+.page {
+    min-height: 100%;
+}
+
+.pagetitle {
+    font-family: "Impact";
+    font-size: 120px;
+    font-weight: normal;
+    font-style: normal;
+    color: #295a97;
+}
+
+.pagesubtitle {
+    font-family: "Impact";
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 40px;
+    font-style: normal;
+    color: #295a97;
+}
+
+.textarea {
+    border-color: #295a97;
+    border-width: 10px;
+    border-style: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.classifybutton {
+    border-color: #295a97;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: "Impact";
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 30px;
+    font-style: normal;
+    text-align: center;
+    color: #295a97;
+    width:294px;
+    height: 48px;
+}
+
+.classifyselect {
+    border-color: #295a97;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: "Impact";
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 30px;
+    font-style: normal;
+    color: #295a97;
+    width:294px;
+    height: 48px;
+    padding-left: 10px;
+}
+
+.nextpostfinishbutton {
+    border-color: #295a97;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: "Impact";
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 30px;
+    font-style: normal;
+    text-align: center;
+    color: #295a97;
+    width:156px;
+    height: 48px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+

@@ -1,0 +1,306 @@
+.page {
+    min-height: 100%;
+}
+
+.pagetitle {
+    font-family: "Impact";
+    font-size: 120px;
+    font-weight: normal;
+    font-style: normal;
+    color: #295a97;
+}
+
+.pagesubtitle {
+    font-family: "Impact";
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 40px;
+    font-style: normal;
+    color: #295a97;
+}
+
+.generateinputdiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width:100%;
+    /* border: 1px solid red; */
+}
+
+.generateinputrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    padding: 10px 20px;        
+    /* border: 1px solid blue; */
+}
+
+.generateinputlabeldiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    min-width: 20%;
+    /* border: 1px solid black; */
+}
+
+.generateinputlabel {
+    width: 207px;
+    height: 48px;
+
+    border-color: #295a97;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+
+    font-family: "Impact";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    font-style: normal;
+    color: #295a97;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.styleoptiondiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 60%;
+    /* border: 1px solid black; */
+}
+
+.styleoption {
+    width: 207px;
+    height: 48px;
+    
+    border-color: #295a97;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+
+    font-family: "Impact";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    font-style: normal;        
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.styleoptionselect {
+    background-color: #295a97;
+    color:#ffffff;
+}
+
+.styleoptionunselect {
+    color: #295a97;
+    background-color: #ffffff;
+}
+
+.categoryinputdiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 60%;   
+}
+
+.categoryinputdiv > div {
+    min-width:50%;
+}
+
+.categorytextboxdiv {
+    display: flex;
+}
+
+.categoryselectdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.categoryselect {
+    border-color: #295a97;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: "Impact";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    font-style: normal;
+    color: #295a97;
+    width:294px;
+    height: 48px;
+    padding-left: 10px;
+}
+
+.categoryselect:disabled {
+    border-color: lightgray;
+    color: lightgray;
+}
+
+.page input[type=text] {
+    border-color: #bce0fd;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+
+    background: #f1f9ff;
+    width:90%;
+}
+
+.wordcountoptiondiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    min-width: 60%;
+}
+
+.wordcountoption {
+    width: 160px;
+    height: 48px;
+
+    border-color: #295a97;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+
+    font-family: "Impact";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    font-style: normal;        
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.wordcountoptionoff {
+    color: #295a97;
+    background-color: #ffffff;
+}
+
+.wordcountoptionon {
+    color: #ffffff;
+    background-color: #295a97;
+}
+
+.bulletsinputdiv {
+    min-width: 60%;
+}
+
+.bulletsinputdiv > .textarea {
+    border-width: 3px;
+}
+
+.generatebuttondiv {
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    /* border: 1px solid red;    */
+}
+
+.generatebutton {
+    width: 243.4px;
+    height: 63px;
+
+    background: #295a97; 
+    
+    font-family: "Impact";
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 30px;
+    font-style: normal;
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;     
+}
+
+.postsdiv {
+    margin-top: 40px;
+}
+
+.textarea {
+    border-color: #295a97;
+    border-width: 10px;
+    border-style: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.postbuttonsdiv {
+    padding:10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.postbuttonsdiv > div {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.prevnextbutton {
+    width: 156px;
+    height: 48px;
+
+    border-color: #295a97;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+
+    font-family: "Impact";
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 30px;
+    font-style: normal;
+    color: #295a97;        
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.postbutton {
+    width: 294px;
+    height: 48px;
+
+    border-color: #295a97;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+
+    font-family: "Impact";
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 30px;
+    font-style: normal;
+    color: #295a97;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}

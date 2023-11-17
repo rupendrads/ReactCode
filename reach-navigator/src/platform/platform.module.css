@@ -1,0 +1,65 @@
+.page {
+    min-height: 100%;
+}
+
+.pagetitle {
+    font-family: "Impact";
+    font-size: 120px;
+    font-weight: normal;
+    font-style: normal;
+    color: #295a97;
+}
+
+.pagesubtitle {
+    font-family: "Impact";
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 40px;
+    font-style: normal;
+    color: #295a97;
+}
+
+.cardrow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cardrow > div {
+    width: 440px;
+    height: 164px;
+    padding: 20px 20px 20px 40px;
+
+    border-color: #295a97;
+    border-width: 1px;
+    border-style: solid;
+
+    background: #f1f9ff;    
+}
+
+.cardtitle {
+    font-family: "Impact";
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 30px;
+    font-style: normal;    
+    color: #295a97;    
+}
+
+.cardtitlediv {
+    margin-bottom: 8px;
+}
+
+.page a {
+    text-decoration: none;
+}
+
+.cardpara {
+    font-family: "Impact";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 20px;
+    font-style: normal;
+    color: #295a97;
+}

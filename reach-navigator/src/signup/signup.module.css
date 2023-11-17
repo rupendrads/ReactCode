@@ -1,0 +1,75 @@
+.page {
+    min-height: 100%;
+}
+
+.pagetitle {
+    font-family: "Impact";
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;    
+    color: #295a97;
+}
+
+.pagetitlediv {
+    margin-bottom: 20px;
+}
+
+.page label {
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    color: #2699fb;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.page input[type=text] {
+    border-color: #bce0fd;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+
+    background: #f1f9ff;
+
+    width:95%;
+}
+
+.page input[type=password] {
+    border-color: #bce0fd;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+
+    background: #f1f9ff;
+
+    width:95%;
+}
+
+.signupbutton {
+    width: 168px;
+    height: 50px;
+
+    border-color: #295a97;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+
+    background: #ffffff;
+
+    font-family: "Impact";
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 12px;
+    font-style: normal;
+    text-align: center;
+    color: #295a97;
+}
+
+.signupdiv {
+    margin-top: 20px;
+    width: 95%;
+
+    display: flex;
+    justify-content: flex-end;
+}

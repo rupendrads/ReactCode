@@ -1,0 +1,107 @@
+.page {
+    min-height: 100%;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.unselectedcard {
+    width: 380px;
+    height: 864px;
+    background: #f1f9ff;
+    padding:40px;
+    cursor: pointer;
+    /* border: 1px solid blue; */
+}
+
+.selectedcard {
+    /* border: 1px solid red; */
+    width: 400px;
+    height: 904px;
+    
+    border-color: #bce0fd;
+    border-width: 1px;
+    border-style: solid;
+        
+    background: #ffffff;
+    padding:40px;
+}
+
+.plantitle {
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    color: #2699fb;
+}
+
+.planimage {
+    min-height: 200px;
+}
+
+.planprice {
+    margin-top: 20px;    
+    font-family: "Arial";
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 40px;
+    font-style: normal;
+    text-align: center;
+    color: #7f7f7f;
+}
+
+.planfeatures {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.feature {
+    font-family: "Impact";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 40px;
+    font-style: normal;
+    color: #2699fb;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: baseline;
+}
+
+.checkoutbutton {
+    width: 168px;
+    height: 50px;
+
+    border-color: #295a97;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+
+    background: #ffffff;
+
+    font-family: "Impact";
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 12px;
+    font-style: normal;
+    text-align: center;
+    color: #295a97;
+}
+
+.checkoutbutton:disabled {
+    border-color: lightgray;
+    color:lightgray;
+}
+
+.checkoutdiv {
+    margin-top: 20px;
+    width: 95%;
+
+    display: flex;
+    justify-content: flex-end;
+}

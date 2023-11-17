@@ -1,0 +1,333 @@
+.page {
+    min-height: 100%;
+    width:100%;    
+    display: flex;
+    justify-content: center;
+}
+
+.topbox {
+    width: 1420px;
+    height: 420px;
+    width: 1420px;
+    /* background: #f1f9ff; */
+    margin-bottom: 40px;
+
+    cursor: pointer;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+}
+
+.topboxleft {    
+    width: 800px;
+    height: 420px;
+
+    border-color: #295a97;
+    border-width: 1px;
+    border-style: solid;
+
+    padding-top: 0px;
+    padding-left: 30px;
+
+    background: #285995; 
+    display: flex;     
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.topboxright {
+    width: 800px;
+    height: 420px;    
+
+    border-color: #295a97;
+    border-width: 1px;
+    border-style: solid;
+
+    padding-top: 20px;
+    padding-left: 30px;
+
+    background: #285995;
+
+    display: flex;     
+    justify-content: center;
+    flex-direction: row;
+}
+
+.elevate {
+    font-family: "Impact";
+    font-size: 80px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.your {
+    font-family: "Impact";
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.brand {
+    font-family: "Impact";
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.professional {
+    font-family: "Impact";
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.fasterthanever {
+    font-family: "Impact";
+    font-size: 90px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.connect {
+    font-family: "Impact";
+    font-size: 80px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.linkedinImage {
+    margin-left: -50px;    
+}
+
+.abouttitlediv {
+    padding-left: 40px;    
+}
+
+.abouttitle {
+    font-family: "Impact";
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 50px;
+    font-style: normal;    
+    color: #295a97;
+}
+
+.abouttitledesc {
+    font-family: "Impact";
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 24px;
+    font-style: normal;
+    color: #295a97;
+    max-width: 700px;
+    padding: 20px 50px;
+    margin-top: 20px;
+    border-top: 10px solid #295a97;
+}
+
+.abouttitledesc > p {
+    text-align: center;
+}
+
+.ourservicesdiv {
+    margin-top: 40px;  
+    margin-bottom: 20px;  
+}
+
+.ourservicestitle {
+    font-family: "Impact";
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 50px;
+    font-style: normal;
+    color: #295a97;
+    margin-bottom: 20px;
+}
+
+.ourservicesrowone {
+    display: flex;
+}
+
+.ourservicesrowonefirstdiv {
+    width:100%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    /* border: 1px solid blue; */
+}
+
+.ourservicesrowoneseconddiv {
+    /* border: 1px solid red; */
+    padding: 20px;
+    max-width: 400px;
+}
+
+.generationtitle {
+    font-family: "Impact";
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 50px;
+    font-style: normal;    
+    color: #295a97;
+}
+
+.generationdesc {
+    font-family: "Impact";
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 24px;
+    font-style: normal;
+    color: #295a97;    
+}
+
+.ourservicesrowtwo {
+    /* border: 1px solid red; */
+    display: flex;
+
+    flex-direction: row;
+}
+
+.ourservicesrowtwocolone {
+    /* border: 1px solid black; */
+    padding: 20px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ourservicesrowtwocoltwo {
+    /* border: 2px solid green */
+    flex-grow: 1;    
+}
+
+.ourservicesrowtwocolonebox {
+    background: #ffffff;    
+    flex-grow: 1;
+    /* border: 1px solid red; */
+}
+
+.ourservicesrowtwocoltworowone {
+    padding-top: 20px;    
+}
+
+.ourservicesrowtwocoltworowonebox {
+    min-height: 100px;
+    background: #f1f9ff;
+    display: flex;
+    justify-content: center;
+}
+
+.ourservicesrowtwocoltworowtwo {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+}
+
+.ourservicesrowtwocoltworowtwocol1 {
+    padding: 20px;
+    max-width: 400px;
+}
+
+.ourservicesrowtwocoltworowtwocol2 {
+    flex-grow: 1;    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ourservicesrowtwocoltworowtwocol2box {
+    background: #ffffff;
+    height: 100%;
+    width:100%;
+}
+
+.ourservicesrowtwocoltworowtwocol3 {
+    padding: 20px;
+    max-width: 400px;
+}
+
+.aboutusrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutusdiv {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.aboutustitle {
+    font-family: "Impact";
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 50px;
+    font-style: normal;
+    color: #295a97;
+    margin-bottom: 20px;
+}
+
+.aboutusdesc {
+    font-family: "Impact";
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 24px;
+    font-style: normal;
+    color: #295a97;
+    max-width: 700px;
+    padding: 20px 50px;
+    margin-top: 20px;
+    border-top: 10px solid #295a97;
+}
+
+.aboutusdesc > p {
+    text-align: center;
+}
+
+.aboutusquotediv {    
+    flex-grow: 1;
+    padding: 40px 20px 20px 20px;
+    margin-left: 20px;
+    /* border: 1px solid red; */
+}
+
+.aboutusquote {
+    background: #f1f9ff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.aboutusquote > p {
+    max-width: 500px;
+    font-family: "Georgia";
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+    font-style: italic;
+    text-align: center;
+    color: #2699fb;
+}
+
+.aboutusquote > p.aboutusquoteby {
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #2699fb;
+}
